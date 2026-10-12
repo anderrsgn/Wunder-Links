@@ -1,5 +1,5 @@
 const WHATSAPP_NUMBER = "595000000000";
-const WHATSAPP_MESSAGE = "Hola Wunder Electronics, quiero consultar por un iPhone.";
+const WHATSAPP_MESSAGE = "Hola Wunder Electronics, quiero consultar por un celular.";
 const SOCIAL_USER = "wunderelectronics";
 
 const LINKS = [
