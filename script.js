@@ -3,9 +3,9 @@ const WHATSAPP_MESSAGE = "Hola Wunder Electronics, quiero consultar por un celul
 const SOCIAL_USER = "wunderelectronics";
 
 const LINKS = [
-  { name: "TikTok", url: "https://www.tiktok.com/@wunderelectronics" + SOCIAL_USER, icon: "tiktok", type: "social" },
+  { name: "TikTok", url: "https://www.tiktok.com/wunderelectronics" + SOCIAL_USER, icon: "tiktok", type: "social" },
   { name: "Instagram", url: "https://www.instagram.com/wunderelectronics" + SOCIAL_USER, icon: "instagram", type: "social" },
-  { name: "Facebook", url: "https://www.facebook.com/share/1C5Totpapf/" + SOCIAL_USER, icon: "facebook", type: "social" },
+  { name: "Facebook", url: "https://www.facebook.com/share/1Ru7n1kdbr" + SOCIAL_USER, icon: "facebook", type: "social" },
   { name: "Pedir por WhatsApp", url: "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(WHATSAPP_MESSAGE), icon: "whatsapp", type: "whatsapp" }
 ];
 
