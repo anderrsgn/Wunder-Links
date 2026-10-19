@@ -1,30 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Wunder Electronics | iPhones y accesorios</title>
-<meta name="description" content="Wunder Electronics: iPhones, estuches y accesorios. Encuentra nuestras redes y pide por WhatsApp.">
-<meta name="theme-color" content="#1a234e">
-<link rel="icon" type="image/png" href="favicon.png">
-<link rel="apple-touch-icon" href="favicon.png">
+<title>Wunder Electronics | iPhones y Accesorios</title>
+<meta name="description" content="Wunder Electronics: iPhones, estuches y accesorios.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<main class="page">
-<header class="brand">
-<img class="brand__logo" src="logo.png" alt="Wunder Electronics" width="900" height="298">
-<p class="brand__tagline">Celulares y accesorios para tu día a día</p>
-<p class="brand__categories">Celulares · Reparaciones · Accesorios</p>
-</header>
-<nav aria-label="Enlaces de Wunder Electronics">
-<ul class="links" id="links"></ul>
-</nav>
+
+<main class="pagina" id="inicio">
+  <!-- LOGO: reemplaza img/logo.png por tu logo -->
+  <div class="logo"><img src="img/logo.png" alt="Wunder Electronics"></div>
+  <h1 class="solo-lectores">Wunder Electronics</h1>
+
+  <!-- REDES: cambia los enlaces o borra las que no uses -->
+  <div class="redes">
+    <a class="red" href="https://www.instagram.com/wunderelectronics" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+    </a>
+    <a class="red" href="https://www.facebook.com/share/1F9W8hJt8Y/" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    </a>
+    <a class="red" href="https://www.tiktok.com/@wunderelectronic" target="_blank" rel="noopener" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+    </a>
+  </div>
+
+  <p class="categorias">iPhones &nbsp;·&nbsp; Estuches &nbsp;·&nbsp; Accesorios</p>
+  <p class="frase">Tu iPhone y todo lo que necesita, en un solo lugar.</p>
+
+  <nav class="botones">
+    <a class="btn" href="iphones.html">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3.5"/><path d="M10.5 5h3"/><path d="M10.5 19h3"/></svg>
+      <span>iPhones</span>
+      <svg class="flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+    </a>
+    <a class="btn" href="estuches.html">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="1.5" width="16" height="21" rx="4.5"/><rect x="7" y="4.5" width="10" height="15" rx="2.5"/><rect x="7.6" y="5.1" width="4.6" height="4.6" rx="1.6"/></svg>
+      <span>Estuches</span>
+      <svg class="flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+    </a>
+    <a class="btn" href="accesorios.html">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="8" width="14" height="12" rx="3"/><path d="M9 8V4M15 8V4"/><path d="m12.8 10.8-2.3 3.4h3l-2.3 3.4"/></svg>
+      <span>Accesorios</span>
+      <svg class="flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+    </a>
+
+    <a id="wa-home" class="btn btn-whatsapp" href="#" target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path transform="translate(6.6 6.6) scale(.45)" stroke-width="3.2" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Pedir por WhatsApp</span>
+    </a>
+  </nav>
+
+  <p class="pie">© Wunder Electronics 2026</p>
 </main>
-<footer class="footer">© Wunder Electronics 2026</footer>
-<script src="script.js"></script>
+
+
+<script src="js/script.js"></script>
 </body>
 </html>
